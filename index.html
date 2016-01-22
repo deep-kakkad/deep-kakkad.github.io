@@ -20,7 +20,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-	
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,22 +38,22 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+                <a href="#top" onclick=$ ( "#menu-close").click();>Start Bootstrap</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="#top" onclick=$ ( "#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#about" onclick=$ ( "#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#services" onclick=$ ( "#menu-close").click();>Services</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+                <a href="#portfolio" onclick=$ ( "#menu-close").click();>Portfolio</a>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#contact" onclick=$ ( "#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -73,8 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h3>I am currently looking for an internship opportunity in software engineering that will allow me to utilize my diverse programming skills.</h3>
                 </div>
             </div>
             <!-- /.row -->
@@ -93,7 +92,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                             <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
 								<i class="fa fa-cloud fa-stack-1x text-primary"></i>
                                 
@@ -102,7 +101,28 @@
                                     <strong>Quora</strong>
                                 </h4>
                                 <p>I've been most viewed writer on the topic of "Sorting Algorithms"</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button>
+                                <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title" color="black">Most viewed writer on Sorting Algorithms</h4>
+                                            </div>
+                                            <div class="modal-body">
+											<p>Some text in the modal.</p>
+												<img src="img/mvw.png"/>
+                                                
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -115,7 +135,28 @@
                                     <strong>Blogging</strong>
                                 </h4>
                                 <p>I blog about random programming stuff. Click to checkout some stats.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Know more</button>
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -128,7 +169,28 @@
                                     <strong>Reading</strong>
                                 </h4>
                                 <p>I've been awarded for reading highest number of book in the state.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Know more</button>
+
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -141,7 +203,28 @@
                                     <strong>Travelling</strong>
                                 </h4>
                                 <p>I've been to Malaysia and Thailand. Still many places to go.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Know more</button>
+
+<!-- Modal -->
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
                             </div>
                         </div>
                     </div>
@@ -166,26 +249,26 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>A little bit about myself</h2>
-						<h4> I'm a current 3rd year computer science undergraduate student. I'm passionate about collaborating on innovation.I believe artificial intelligence and machine learning are pretty cool so I want to study those areas deeply.<br>
+                    <h4> I'm a current 3rd year computer science undergraduate student. I'm passionate about collaborating on innovation.I believe artificial intelligence and machine learning are pretty cool so I want to study those areas deeply.<br>
 						When I'm not on the computer, I enjoy.. Wait! That never happens! 
 						</h4>
-					<h2> Technical Summary </h2>
-						<h4></h4>
-                   
-					
-                   <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
+                    <h2> Technical Summary </h2>
+                    <h4></h4>
+
+
+                    <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
                 </div>
             </div>
         </div>
     </aside>
-	<!-- Call to Action -->
+    <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-					<h2>Chart</h2>
-                    					
-                   <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
+                    <h2>Chart</h2>
+
+                    <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
                 </div>
             </div>
         </div>
@@ -243,10 +326,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>GET IN TOUCH</h3>
-					<h5> Whether you have an idea for a project or just want to chat, feel free to shoot me an e-mail!</h5>	
-                   <a id="email-button" href="mailto:dkakkad13@gmail.com" class="btn btn-lg btn-light">Say Hi!</a>
-					
-                   <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
+                    <h5> Whether you have an idea for a project or just want to chat, feel free to shoot me an e-mail!</h5>
+                    <a id="email-button" href="mailto:dkakkad13@gmail.com" class="btn btn-lg btn-light">Say Hi!</a>
+
+                    <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
                 </div>
             </div>
         </div>
@@ -269,29 +352,34 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Start Bootstrap</strong>
                     </h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <p>3481 Melrose Place
+                        <br>Beverly Hills, CA 90210</p>
                     <ul class="list-unstyled">
-					<li><i class="fa fa-wordpress fa-fw"></i>  <a href="dgeekspot.wordpress.com">Blog</a>
+                        <li><i class="fa fa-wordpress fa-fw"></i> <a href="dgeekspot.wordpress.com">Blog</a>
                         </li>
                         <li><i class="fa fa-phone fa-fw"></i> +(91) 7383813930</li>
-                        
-						<li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:dkakkad13@gmail.com">dkakkad13@gmail.com</a>
+
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:dkakkad13@gmail.com">dkakkad13@gmail.com</a>
                         </li>
-						
+
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><img src="img/fb.png"></img></a>
+                            <a href="#"><img src="img/fb.png"></img>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/li.png"></img></a>
+                            <a href="#"><img src="img/li.png"></img>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/gp.png"></img></a>
+                            <a href="#"><img src="img/gp.png"></img>
+                            </a>
                         </li>
-						<li>
-                            <a href="#"><img src="img/ig.png"></img></a>
+                        <li>
+                            <a href="#"><img src="img/ig.png"></img>
+                            </a>
                         </li>
                     </ul>
                     <hr class="small">
@@ -309,34 +397,34 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
+        // Closes the sidebar menu
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
         });
-    });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Scrolls to the selected menu item on the page
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
     </script>
 
 </body>
